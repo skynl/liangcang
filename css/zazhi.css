@@ -1,0 +1,126 @@
+.zazhi>a{
+	border-bottom:4px solid black;
+}
+/* 杂志logo样式 */
+.zazhilogo{
+	width:1000px;
+	margin:0px auto;
+}
+.zazhilogo>h1:nth-child(1){
+	margin-left:400px;
+	font-style:italic;
+	float:left;
+}
+.zazhilogo>h1:nth-child(2){
+	margin-left:20px;
+	float:left;
+}
+/* 杂志导航条样式 */
+.zazhi-nav{
+	margin:50px auto 0px;
+	width:1000px;
+}
+.nav-box{
+	width:1000px;
+}
+.nav-tl{
+	width:1000px;
+	height:35px;
+	border-bottom: 1px solid #ededed;
+}
+
+.nav-tl>li{
+	float:left;
+	padding:6px 0 14px 15px;
+	height: 15px;
+}
+.nav-tl>li:hover{
+	border-bottom: 1px solid #333;
+}
+.nav-tl>li>a{
+	width: 64px;
+	color: #333;
+	font-size:12px;
+	text-align: center;
+	display: block;
+	margin-top: 1px;
+	height: 24px;
+	line-height: 24px;
+}
+.nav-tl>li:nth-child(1)>a{
+	padding:0 0 10px 0px;
+}
+.nav-tl>li:nth-child(11)>a{
+	position:relative;
+	padding:0 0px 10px 11px;
+}
+/* 杂志内容样式 */
+.zazhi-main{
+	width:1000px;
+	margin:0px auto 30px;
+	display:flex;
+	flex-wrap:wrap;
+}
+.zazhi-main>li{
+	margin:30px 23px 0 0;
+	text-align:center;
+	line-height:36px;
+}
+.zazhi-main>li>p>a{
+	color:#333;
+	
+}
+.zazhi-main>li>p:nth-child(3){
+	font-size:12px;
+	line-height:16px;
+}
+.zazhi-main>li:nth-child(3n){
+	margin-right:0px;
+}
+.zazhi-main img{
+	width:318px;
+	height:190px;
+}
+/* 杂志列表样式 */
+.nextpage{
+	margin:0px auto;
+	width:1000px;
+	height:auto;
+	text-align:right;
+	vertical-align: middle;
+}
+.nextpage>a{
+	display: inline-block;
+	padding: 0px 5px 0px 5px;
+	font-size:12px;
+	color:#878787;
+}
+.nextpage>a:hover{
+	background:#ccc;
+	color:#fff;
+}
+.nextpage>a.checked{
+	background:#98B5D5;
+	color:#fff;
+}
+.next{
+	width: 61px;
+	height: 19px;
+	background-position: -23px -599px;
+	border: none;
+	cursor: pointer;
+	vertical-align: middle;
+	background:url("../images/icon.png") no-repeat -23px -599px;
+}
+.goPage{
+	width:24px;
+}
+.confirmBtn{
+	width: 41px;
+	height: 19px;
+	background-position: -85px -581px;
+	border: none;
+	cursor: pointer;
+	vertical-align: middle;
+	background:url("../images/icon.png") no-repeat -85px -580px;
+}

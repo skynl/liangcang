@@ -1,0 +1,105 @@
+/* 全局样式 */
+*{margin:0px; padding:0px;}
+a{text-decoration:none;}
+img{vertical-align:bottom;}
+li{list-style:none;}
+/* 主体样式 */
+body{
+	background:#999999;
+}
+table{
+	width: 565px;
+	border-spacing: 10px;
+	margin: 0 auto;
+	padding-top:160px;
+	padding-bottom: 40px;
+}
+
+tbody>tr:nth-child(1)>td{
+	width:100%;
+}
+.logo{
+	display:block;
+	margin:0px auto 20px;
+	padding-right:50px;
+}
+.sjh,.yzm,.cjmm,.queren{
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align:right;
+	padding-right: 20px;
+}
+.phoneNumber,.yzmNumber,.newpasswd,.passwdQR{
+	width: 280px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	padding-left: 20px;
+	font-family: 微软雅黑;
+	color: rgb(255, 255, 255);
+	opacity: 0.99;
+	background:url("../login-images/loginuserBg.png") no-repeat;
+	border:none;
+}
+tbody>tr:nth-child(3)>td:nth-child(3)>a{
+	color:#ffffff;
+	font-size:12px;
+}
+/* 服务条款 */
+.agree>label{
+	color: #fff;
+	font-size:14px;
+}
+.agree>a{
+	color:#0c79cc;
+	font-size:14px;
+}
+/* 立即注册 */
+.zhuceNow{
+	cursor: pointer;
+	width: 300px;
+	height: 50px;
+	border: 0;
+	background: #25292e;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 9px;
+	margin-bottom: 20px;
+}
+
+/* 其他方式及登录 */
+.otherway{
+	float:left;
+}
+.otherway>a{
+	display:inline-block;
+	width:36px;
+	height:36px;
+}
+
+.otherway>a:nth-child(1){
+	background:url("../images/icon.png") no-repeat -50px -455px;
+}
+.otherway>a:nth-child(2){
+	background:url("../images/icon.png") no-repeat -80px -453px;
+}
+.otherway>a:nth-child(3){
+	background:url("../images/icon.png") no-repeat -111px -453px;
+}
+.otherway>a:nth-child(4){
+	background:url("../images/icon.png") no-repeat -20px -453px;
+}
+
+/* 注册良仓 */
+.loginLC>a{
+	display:block;
+	margin:10px 0 30px 0;
+	border-bottom:1px solid white;
+	color:#ffffff;
+}
+.loginLC{
+	float:right;
+	margin-right:40px;
+}

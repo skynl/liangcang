@@ -1,0 +1,195 @@
+.index>a{
+	border-bottom:4px solid black;
+}
+/* 轮播图样式 */
+.banner-lb{
+	margin:0px auto;
+	width:1000px;
+	height:475px;
+	margin-top:30px;
+	position:relative;
+	overflow:hidden;
+}
+.banner-lb .box{
+	
+	height:475px;
+	position:absolute;
+	left:0px;top:0px;
+
+}
+.box>li{
+	float:left;
+	width:1000px;
+	height:475px;
+	z-index:1;
+}
+.banner-lb>a{
+	position:absolute;
+	width:59px;
+	height:80px;
+	z-index:2;
+	top:50%;
+	margin-top:-40px;
+	opacity:0.5;
+}
+.banner-lb>ul>li>a>img{
+	width:1000px;
+	height:475px;
+}
+.banner-lb>a:hover{
+	opacity:0.8;
+}
+.last{
+	left:0px;
+	background:url("../images/pre.png");
+}
+.next{
+	right:0px;
+	background:url("../images/next.png");
+}
+
+
+/* 5个广告样式 */
+.banner-box{
+	margin:12px auto;
+	width:1000px;
+	height:403px;
+	display:flex;
+	justify-content:space-between;
+}
+.banner-l,.banner-r{
+	width:317px;
+	height:403px;
+}
+.banner-1 img,.banner-2 img,.banner-4 img,.banner-5 img{
+	width:317px;
+	height:190px;
+}
+.banner-2,.banner-5{
+	margin-top:23px;
+}
+/* 人气良品样式 */
+.renqi{
+	margin:40px auto;
+	width:1000px;
+	text-align:center;
+	font-size:12px;
+	line-height:50px;
+	color:#333333;
+	border-bottom:1px solid #CCCCCC;
+}
+
+/* 商品列表样式 */
+.shangpin{
+	margin:0px auto;
+	width:1000px;
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:20px;
+}
+.shangpin1{
+	width:316px;
+	height:366px;
+	position:relative;
+	margin:0px 0px 30px 26px;
+	margin-left:;
+}
+.shangpin>div:nth-child(3n+1){
+	margin:0px 0px 30px 0px;
+}
+.shangpin1 span{
+	position:absolute;
+	top:10px;left:10px;
+	background:pink;
+	font-size:10px;
+	line-height:20px;
+	color:white;
+	padding:0px 5px 0px 5px;
+}
+.shangpin1>img:nth-child(2){
+	width:316px;
+	height:316px;
+}
+.shangpin1>img:nth-child(3){
+	width:50px;
+	height:50px;
+	position:absolute;
+	bottom:60px;right:10px;
+}
+.shangpin1>a:nth-child(4) img{
+	width:40px;
+	height:40px;
+}
+.shangpin1>a:nth-child(4){
+	line-height:40px;
+	color:#878787;
+	font-size:14px;
+}
+.shangpin1>a:nth-child(5){
+	float:right;
+	line-height:40px;
+	color:#878787;
+	font-size:14px;
+	padding:0px 30px 0px 0px;
+	background:url("../images/icon.png") no-repeat 32px -598px;
+}
+.sub-shangpin1{
+	width:316px;
+	height:316px;
+	text-align:center;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:0px;
+	display:none;
+}
+.sub-shangpin1 a{
+	display:block;
+	width:316px;
+	height:316px;
+	color:white;
+
+}
+.money{
+	margin:24px 0px 0px 24px;
+	text-align:left;
+	font-size:20px;
+	color:#0c6eba;
+	font-style:italic;
+	line-height:20px;
+	font-weight:bold;
+
+}
+.sub-shangpin1 p:nth-child(2){
+	margin-top:80px;
+	font-size:14px;
+	font-weight:bold;
+}
+.sub-shangpin1 p:nth-child(3){
+	font-size:12px;
+	margin-top:5px;
+}
+.shangpin1:hover .sub-shangpin1{
+	display:block;
+}
+/* 更多样式 */
+.more-box{
+	margin:90px auto 90px;
+	width:1000px;
+	text-align:center;
+	margin-top:60px;
+}
+.more-box a{
+	margin:0px auto;
+	display:block;
+	width:148px;
+	height:50px;
+	line-height:50px;
+	border:2px solid black;
+	font-style:italic;
+	color:#25292E;
+	font-weight:bold;
+}
+.more-box a:hover{
+	background:black;
+	color:white;
+}

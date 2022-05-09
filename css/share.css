@@ -1,0 +1,28 @@
+.share>a{
+	border-bottom:4px solid black;
+}
+/* 头部小标签样式 */
+.main{
+	width:1000px;
+	margin:0px auto;
+}
+
+.xiaobq-t{
+	padding:10px;
+}
+.xiaobq-t>a{
+	color:#666;
+}
+.xiaobq-t>span{
+	color:rgb(191, 191, 191);
+}
+/* 分享轮播图样式 */
+.fxlbt{
+	width:100px;
+	height:370px;
+	margin:0px auto;
+}
+.left,.center,.right{
+	width:306px;
+	height:345px;
+}
